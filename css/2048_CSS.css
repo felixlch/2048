@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;}
+body{
+
+}
+#main{
+    margin:0 50%;
+    padding: 0;
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    border-radius:10px;
+    background-color: white;
+    left:-325px;
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    background-color: #efefef;
+    position: absolute;
+    border-radius:20px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    line-height:150px;
+}
+#gameover{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: azure;
+    text-align: center;
+    opacity: 0.7;
+}
+#span1{
+    font-size: 200px;
+}
+#span2{
+    font-size: 50px;
+}
+#c00,#c01,#c02,#c03{
+    top:80px;
+}
+#c10,#c11,#c12,#c13{
+    top:240px;
+}
+#c20,#c21,#c22,#c23{
+    top:400px;
+}
+#c30,#c31,#c32,#c33{
+    top:560px;
+}
+#c00,#c10,#c20,#c30{
+    left:10px;
+}
+#c01,#c11,#c21,#c31{
+    left:170px;
+}
+#c02,#c12,#c22,#c32{
+    left:330px;
+}
+#c03,#c13,#c23,#c33{
+    left:490px;
+}
+
+
+#d00,#d01,#d02,#d03{
+    top:80px;
+}
+#d10,#d11,#d12,#d13{
+    top:240px;
+}
+#d20,#d21,#d22,#d23{
+    top:400px;
+}
+#d30,#d31,#d32,#d33{
+    top:560px;
+}
+#d00,#d10,#d20,#d30{
+    left:10px;
+}
+#d01,#d11,#d21,#d31{
+    left:170px;
+}
+#d02,#d12,#d22,#d32{
+    left:330px;
+}
+#d03,#d13,#d23,#d33{
+    left:490px;
+}
+.n2{background-color:#f2b179;  }
+.n4{background-color:#f59563;  }
+.n8{background-color:#f67c5f;  }
+.n16{background-color:#f65e3b;  }
+.n32{background-color:#edcf72;  }
+.n64{background-color:#edcc61;  }
+.n128{background-color:#9c0;
+    font-size:75px;  }
+.n256{background-color:#33b5e5;
+    font-size:75px;  }
+.n512{background-color:#09c;
+    font-size:75px;  }
+.n1024{background-color:#a6c;
+    font-size:60px;  }
+.n2048{background-color:#93c;
+    font-size:60px;  }
+.n4096{background-color:#d6c;
+    font-size:60px;  }
+.n8192{background-color:#2f093c;
+    font-size:60px;  }
